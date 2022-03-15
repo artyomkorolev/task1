@@ -1,7 +1,7 @@
 package ru.vsu.cs.korolevae;
 
 class perevod{
-    public static int perv10 (int chislo, int sisschisl){
+    public  int perv10 (int chislo, int sisschisl){
      int sum = 0;
      int ostatok=0;
      int st=0;
@@ -18,7 +18,7 @@ class perevod{
 
         return sum;
     }
-    public static int pereviz10(int chisl0, int sisschisl){
+    public  int pereviz10(int chisl0, int sisschisl){
         int sum=0;
         int ostatok= 0;
         int st=0;
@@ -32,7 +32,7 @@ class perevod{
         }
         return sum;
     }
-    public static int perevvod(int chislo,int ssishod, int ssneed){
+    public  int perevvod(int chislo,int ssishod, int ssneed){
         chislo= perv10(chislo,ssishod);
         chislo=pereviz10(chislo,ssneed);
         return chislo;
